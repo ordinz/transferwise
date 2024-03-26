@@ -5,7 +5,7 @@ import { constructEvent } from "./webhooks";
 const SANDBOX_URL = "https://api.sandbox.transferwise.tech";
 const LIVE_URL = "https://api.transferwise.com";
 
-const VERSION = "v1";
+const VERSION = "v2";
 
 class TransferWise {
   constructor({ token, sandbox = false } = {}) {
